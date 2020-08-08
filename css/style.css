@@ -1,0 +1,16 @@
+ /*Reset CSS*/
+ *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Viga', sans-serif;
+}
