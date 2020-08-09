@@ -175,17 +175,7 @@ li.move-right{
         line-height: 6rem;
     }
 
-    .sub-menu{
-        position: initial;
-        border: 3px solid transparent;
-        border-left-color: #eb3007;
-        margin-left: 1rem;
-        max-height: 0;
-    }
-
-    .sub-menu::before{
-        display: none;
-    }
+    
 
     .nav-list li:hover > .sub-menu{
         opacity: 1;
@@ -581,7 +571,7 @@ footer h4{
 
 .fab {
     transition: 300ms;
-    color: #fff;
+    color:#fff;
     padding: 10px;
     font-size:25px;
 }
