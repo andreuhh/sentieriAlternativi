@@ -362,6 +362,8 @@ section.articles {
 
 /* call to action*/
 .call-to-action {
+    margin-top: 70px;
+    margin-bottom: 70px;
     width: 100%;
     padding: 20px;
     background-color: #A7D8E2;
@@ -385,6 +387,20 @@ section.articles {
   }
 
 /* end of call to action*/
+
+/* chi siamo*/
+section.chi-siamo {
+    margin: 20px 75px; 
+}
+
+.presentation {
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+
+/* end chi siamo*/
 
 /*  Fine Main */
 
