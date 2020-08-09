@@ -35,7 +35,7 @@ h1,h2,h3,h4,h5{
 }
 
 h3 {
-    font-size: 3.5rem;
+    font-size: 3.8rem;
     text-align: center;
 }
 
@@ -398,6 +398,10 @@ section.chi-siamo {
     margin: 20px 95px; 
 }
 
+section.chi-siamo h3{
+padding-bottom: 20px;
+}
+
 .presentation {
     padding-top: 40px;
     display: grid;
@@ -441,9 +445,8 @@ section.chi-siamo {
     margin-bottom: 50px;
 }
 .step p{
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 10px;
+    padding: 25px 75px 10px 75px;
+    text-align: left;
 }
 .step h2{
     font-size: 50px;
@@ -465,7 +468,7 @@ section.chi-siamo {
     margin: 10px;
 }
 .step article p{
-    padding-top: 10px;
+    padding-top: 20px;
     font-size: 1.8rem;
     line-height: 24px;
     font-weight: 900;
@@ -561,50 +564,28 @@ footer .menu_social {
     text-align: right;
 }
 /* i link portano ai social*/
-.fab {
-    color: #fff;
-    padding-left: 55px;
-    font-size:36px;
-}
+
+footer h4,
 footer a {
-    opacity: 1;
-    
-}
-footer p {
-    font-size: 12px;
-    text-align: justify;
-    margin-left: 7rem;
-}
-footer .menu_social a:hover  {
-    opacity: 0.6;
-} 
-footer #disclaimer p {
-    text-align: left;          
-} 
-footer  h5,
-footer p {
     text-align: center;
+    color: #fff;
+}
+footer h4{
+    font-size: 3.3rem;
+    letter-spacing: .3rem;
+}
+
+.footer-container {
+    display: flex;
+    font-size: 1.6rem;
+    padding-left: 10px;
+}
+
+.footer-container a{
+    
+    padding-left: 10px;
 }
    
-@media screen and (max-width:768px){
-    /* footer i link portano ai social */
-.fab {
-    padding-left: 25px;
-    font-size:33px;
-}
-footer p {
-    margin-left: 0rem;
-}
-}
-/*da iPhone plus in giù*/
-@media screen and (max-width:500px){
-   
-     /* i link portano ai social di MOHOLE */
-.fab {
-    padding-left: 13px;
-    font-size:27px;
-    }
-}
 /*fine pagina home*/
 
 
