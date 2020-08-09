@@ -595,13 +595,13 @@ footer h4{
 
     .footer-container {
         display: flex;
-        font-size: 1.2rem;
+        font-size: 1rem;
         padding-left: 5px;
         padding-top: 15px;
     }
 
     .footer-container a{  
-        padding-left: 15px;
+        padding-left: 5px;
     }
   }
    
