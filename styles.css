@@ -382,7 +382,7 @@ section.articles {
     .call-to-action {
       grid-template-columns: 1fr;
       grid-template-rows: 1fr;
-      grid-gap: 20px;
+      grid-gap: 21px;
     }
     .call-to-action p {
         text-align: center;
