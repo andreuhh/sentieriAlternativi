@@ -384,6 +384,9 @@ section.articles {
       grid-template-rows: 1fr;
       grid-gap: 20px;
     }
+    .call-to-action p {
+        text-align: center;
+    }
   }
 
 /* end of call to action*/
