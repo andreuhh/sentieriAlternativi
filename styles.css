@@ -579,11 +579,15 @@ footer h4{
     padding-bottom: 30px;
 }
 
-.fab {
-    
+.fab a{
+    transition: color 300ms;
     color: #fff;
     padding: 10px;
     font-size:25px;
+}
+
+.fab a:hover {
+    color: var(--primary-color);
 }
 
 @media screen and (max-width: 768px){
