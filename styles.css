@@ -545,25 +545,10 @@ footer {
     margin-top:0px;
     padding: 0px 10px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
-/* colore link a email */
-footer .colonna a {
-    color: #2d2d2d;
-}
-footer .colonna a:hover {
-    color: #2d2d2d;
-}
-/* menu social flex */
-footer .menu_social {
-    display: flex;
-    width: auto;  
-    justify-content: center;
-    text-align: right;
-}
-/* i link portano ai social*/
 
 footer h4,
 footer a {
@@ -579,11 +564,12 @@ footer h4{
     display: flex;
     font-size: 1.6rem;
     padding-left: 10px;
+    padding-top: 20px;
 }
 
 .footer-container a{
     
-    padding-left: 10px;
+    padding-left: 15px;
 }
    
 /*fine pagina home*/
