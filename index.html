@@ -1,19 +1,202 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="it">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sentieri Alternativi</title>
-    <link rel="stylesheet" href="css/style.css">
+    <!-- carico il file per le icone Fontawesome -->
     <!--Link font -->
     <link
         href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,600&family=Viga&display=swap"
         rel="stylesheet">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
 </head>
 
 <body>
+    <!--Nav markup goes here-->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="menu-icons">
+                    <i class="icon ion-md-menu"></i>
+                    <i class="icon ion-md-close"></i>
+                </div>
+                <a href="index.html">
+                    <img src="img/logo-single.png" alt="logo" width="65" height="auto">
+                </a>
+                <ul class="nav-list">
+                    <li>
+                        <a class="nero" href="#">Progetto</a>
+                    </li>
 
+                    <li>
+                        <a class="nero" href="#">Mappa</a>
+                    </li>
+                    <li>
+                        <a class="nero" href="#">Categoria</a>
+                    </li>
+
+                    <li>
+                        <a class="nero" href="#">Articoli</a>
+                    </li>
+                    <li>
+                        <a class="nero" href="#">Chi siamo</a>
+                    </li>
+
+                    <li>
+                        <a class="nero" href="#">Scrivi-Mi</a>
+                    </li>
+
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--End nav-->
+
+    <!--Hero-->
+    <section class="hero">
+        <div class="text">
+            <h1>Sentieri Alternativi</h1>
+            <h2>Una mappa fatta di Storie</h2>
+        </div>
+    </section>
+
+    <!-- Main -->
+    <main>
+        <section class="project">
+            <h3>Il progetto</h3>
+            <p>
+                Sentieri Alternativi è una comunità digitale che raccoglie storie, le vostre, per metterle insieme
+                all’interno di una mappa nella quale poter navigare, scrivere, condividere.
+                La nostra idea è che ogni luogo ha la sua storia, o forse più di una.
+
+                L’intento è quello di costruire un archivio che possa arricchire la nostra esperienza quotidiana della
+                città
+                e quella delle persone che ogni giorno arrivano a visitarla.
+
+                Ognuno di noi contribuisce ogni giorno a raccontare la storia della città in modo unico e personale:
+                attraverso parole, fotografie, disegni, verità o bugie.
+            </p>
+        </section>
+
+        <section class="articles">
+            <h3>Articoli</h3>
+
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="img/card1.jpg" alt="">
+                    </div>
+                    <div class="card-title">
+                        <p class="color-red">Incontri e scontri</p>
+                        <h5>Nel cortile di casa</h5>
+                    </div>
+                    <div class="card-text">
+                        <p>
+                            Giovedì 2 Aprile 2020 In cortile ci sono tanti bambini. Sono stati accuratamente distanziati
+                            per evitare inconvenienti, ma ci sono. <br> Alcuni giocano con i gessetti, colorano
+                            l’asfalto
+                            dando forma ai loro sogni.
+                        </p>
+                    </div>
+                    <div class="card-info">
+                        <p>20-07-2020</p>
+                        <p>nome autore</p>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="img/card2.jpg" alt="">
+                    </div>
+                    <div class="card-title">
+                        <p class="color-blue">False piste</p>
+                        <h5>Una lettera senza destinazione</h5>
+                    </div>
+                    <div class="card-text">
+                        <p>
+                            Una giornata ventosa può regalarci di tutto. Anche quando il mondo torna a essere lo stesso
+                            immobile mondo di sempre, restano segni di quel passaggio.
+                            Un passaggio che ha portato con sé, mescolato, scompigliato carte e pensieri.
+                        </p>
+                    </div>
+                    <div class="card-info">
+                        <p>20-07-2020</p>
+                        <p>nome autore</p>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="img/card3.jpg" alt="">
+                    </div>
+                    <div class="card-title">
+                        <p class="color-orange">In movimento</p>
+                        <h5>Un luogo senza memoria</h5>
+                    </div>
+                    <div class="card-text">
+                        <p>
+                            Segrate è un labirinto. Mi ci sono perduto più volte, a piedi o in bici, tra i suoi
+                            palazzoni color mattone, i ponti pedonali e le strade scavate tra le isole dei giardini.
+                        </p>
+                    </div>
+                    <div class="card-info">
+                        <p>20-07-2020</p>
+                        <p>nome autore</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <div class="call-to-action">
+        <p>Ami scrivere e vorresti vedere i tuoi racconti pubblicati sul nostro sito?</p>
+        <p>Contattaci su www.sentierialternativi.it</p>
+    </div>
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="colonna" id="disclaimer">
+            <p>Questo sito è stato creato a scopo didattico,
+                dagli allievi del primo anno Scuola Web & App Mohole.
+                Le situazioni create sono immaginarie e create per produrre
+                contenuti dimostrativi fittizi.
+            </p>
+        </div>
+
+        <div class="colonna"></div>
+        <div class="colonna">
+
+            <div class="menu_social">
+                <a href="https://www.facebook.com/mohole/" id="fb" title="facebook" target="_blank">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+                <a href="https://www.instagram.com/scuolamohole/?hl=it" id="fb" title="instagram" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.youtube.com/channel/UCOu3XN2DB6lFEQTIeo41Nxw" id="yt" title="youtube"
+                    target="_blank">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
