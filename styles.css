@@ -365,13 +365,14 @@ section.articles {
     margin-top: 70px;
     margin-bottom: 70px;
     width: 100%;
-    padding: 20px;
     background-color: #A7D8E2;
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 40px 75px;
     font-weight: 500;
     grid-gap: 30px;
+    align-content: center;
+    align-items: center;
 }
 
 .call-to-action p {
@@ -382,7 +383,7 @@ section.articles {
     .call-to-action {
       grid-template-columns: 1fr;
       grid-template-rows: 1fr;
-      grid-gap: 21px;
+      grid-gap: 20px;
     }
     .call-to-action p {
         text-align: center;
