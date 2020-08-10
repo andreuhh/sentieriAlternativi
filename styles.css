@@ -348,6 +348,13 @@ section.articles {
 .card-title p.color-orange {
     color: #F6B17E;
 }
+
+@media screen and (max-width: 768px){
+    .card{
+      padding-bottom: 15px;
+    }
+   
+  }
 /*end section articoli*/
 
 /* call to action*/
@@ -480,7 +487,7 @@ padding-bottom: 20px;
     color: #fff;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1024px){
     
     .step{
         margin-bottom: 30px;
