@@ -2,6 +2,9 @@
 :root {
     --primary-color: #FF5656;
     --secondary-color:#A7D8E2;
+    --incammino: #52ba6f;
+    --ceraunavolta: #7EA7F6;
+    --incontriscontri: #F67E86;
     --black-color: #222222;
     --text-color: #3C3838;
   }
@@ -337,16 +340,16 @@ section.articles {
     font-size: 1.4rem;
 }
 
-.card-title p.color-red {
-    color: #F67E86
-}
-
 .card-title p.color-blue {
-    color: #7EA7F6;
+    color: var(--ceraunavolta);
 }
 
-.card-title p.color-orange {
-    color: #F6B17E;
+.card-title p.color-green {
+    color: var(--incammino);
+}
+
+.card-title p.color-red {
+    color: var(--incontriscontri);
 }
 
 @media screen and (max-width: 768px){
