@@ -537,6 +537,7 @@ padding-bottom: 20px;
 
 /* FOOTER con "display: flex" */
 footer {
+    margin-top: 120px;
     background-color: var(--black-color);;
     color: white;
     height: auto;

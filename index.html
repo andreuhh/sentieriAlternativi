@@ -16,6 +16,8 @@
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
     <link href="styles.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/lax.js"></script>
+
 </head>
 
 <body>
@@ -212,28 +214,37 @@
             <br>
             Ecco i semplicissimi passaggi da svolgere:
         </p>
-        <div class="step-container">
-            <article>
+        <div class="step-container ">
+
+            <article class="lax" data-lax-translate-y_large="200 0, 400 0" data-lax-opacity="200 1,400 .95"
+                data-lax-anchor="self">
                 <div class="circle"><span>1</span></div>
                 <p>Scrivi il tuo racconto e invialo a
                     sentierialternativi.it
                 </p>
             </article>
-            <article>
+
+            <article class="lax" data-lax-translate-y_large="200 75, 400 0" data-lax-opacity="200 1,400 .95"
+                data-lax-anchor="self">
                 <div class="circle"><span>2</span></div>
                 <p>Il tuo racconto verrà
                     revisionato dai nostri
                     redattori</p>
             </article>
-            <article>
+
+            <article class="lax" data-lax-translate-y_large="200 0, 400 0" data-lax-opacity="200 1,400 .95"
+                data-lax-anchor="self">
                 <div class="circle"><span>3</span></div>
                 <p>Riceverai una copia con le eventuali correzioni prima della pubblicazione</p>
             </article>
-            <article>
+
+            <article class="lax" data-lax-translate-y_large="200 75, 400 0" data-lax-opacity="200 1,400 .95"
+                data-lax-anchor="self">
                 <div class="circle"><span>4</span></div>
                 <p>Il tuo racconto pubblicato sul
                     nostro sito.</p>
             </article>
+
         </div>
     </section>
 
@@ -267,15 +278,34 @@
         </div>
 
         <div class="social-icons">
-            <a href="https://www.facebook.com/mohole/" id="fb" title="facebook" target="_blank">
+            <a href="https://www.facebook.com/sentierialternativimilano" id="fb" title="facebook" target="_blank">
                 <i class="fab fa-facebook-square"></i>
             </a>
-            <a href="https://www.instagram.com/scuolamohole/?hl=it" id="fb" title="instagram" target="_blank">
+            <a href="https://www.instagram.com/sentierialternativimilano/" id="fb" title="instagram" target="_blank">
                 <i class="fab fa-instagram"></i>
             </a>
         </div>
 
     </footer>
+    <script>
+        window.onload = function () {
+            lax.setup(
+            ) // init
+
+            lax.setup({
+                breakpoints: { small: 0, large: 992 }
+            })
+
+
+
+            const updateLax = () => {
+                lax.update(window.scrollY)
+                window.requestAnimationFrame(updateLax)
+            }
+
+            window.requestAnimationFrame(updateLax)
+        }
+    </script>
     <script src="js/moveTo.min.js"></script>
     <script src="js/scripts.js"></script>
 </body>
