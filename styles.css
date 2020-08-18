@@ -302,7 +302,7 @@ section.project p {
 
   @media screen and (max-width: 500px){
     .panels {
-        min-height: 60vh;
+        min-height: 50vh;
       }
 }
 
@@ -326,6 +326,8 @@ section.project p {
     display: flex;
     flex-direction: column;
   }
+
+  
 
   /*.panel:hover {
     opacity: .9;
