@@ -354,6 +354,7 @@ section.categorie {
     top: 50%;
     transform: translateY(-50%);
     cursor: pointer;
+    
 }
 
 i.material-icons{
