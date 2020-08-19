@@ -535,6 +535,13 @@ section.articles h3 {
     align-content: center;
     align-items: center;
 }
+@media screen and (max-width: 768px){
+    .call-to-action {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+}
 
 .call-to-action p {
     font-size: 2.2rem;
@@ -550,7 +557,7 @@ section.articles h3 {
     .call-to-action p {
         text-align: center;
     }
-  }
+}
 
 /* end of call to action*/
 
