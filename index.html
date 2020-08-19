@@ -86,6 +86,40 @@
             </p>
         </section>
 
+        <!-- CATEGORIE -->
+        <div class="cat-text">
+            <h3>Categorie</h3>
+        </div>
+        <div class="panels">
+            <div class="panel panel1">
+              <p></p>
+              <p>In movimento</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="panel panel2">
+              <p></p>
+              <p>Incontri e Scontri</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="panel panel3">
+              <p></p>
+              <p>Strutture e Sculture</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="panel panel4">
+              <p></p>
+              <p>C'era una volta</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="panel panel5">
+              <p></p>
+              <p>False piste</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        <!-- CATEGORIE FINE -->
+
+        <!-- ARTICOLI -->
         <section id="articoli" class="articles">
             <h3>Articoli</h3>
 
@@ -157,6 +191,7 @@
                 </div>
             </div>
         </section>
+        <!-- FINE ARTICOLI -->
 
     </main>
 
@@ -216,7 +251,7 @@
         </p>
         <div class="step-container ">
 
-            <article class="lax" data-lax-translate-y_large="200 0, 400 0" data-lax-opacity="200 1,400 .95"
+            <article class="lax" data-lax-translate-y="200 0, 500 -30" data-lax-opacity="300 1,900 1"
                 data-lax-anchor="self">
                 <div class="circle"><span>1</span></div>
                 <p>Scrivi il tuo racconto e invialo a
@@ -224,7 +259,7 @@
                 </p>
             </article>
 
-            <article class="lax" data-lax-translate-y_large="200 75, 400 0" data-lax-opacity="200 1,400 .95"
+            <article class="lax" data-lax-translate-y="200 0, 500 30" data-lax-opacity="200 1,900 1"
                 data-lax-anchor="self">
                 <div class="circle"><span>2</span></div>
                 <p>Il tuo racconto verrà
@@ -232,16 +267,16 @@
                     redattori</p>
             </article>
 
-            <article class="lax" data-lax-translate-y_large="200 0, 400 0" data-lax-opacity="200 1,400 .95"
+            <article class="lax" data-lax-translate-y="200 0, 500 -30" data-lax-opacity="200 1,900 1"
                 data-lax-anchor="self">
                 <div class="circle"><span>3</span></div>
                 <p>Riceverai una copia con le eventuali correzioni prima della pubblicazione</p>
             </article>
 
-            <article class="lax" data-lax-translate-y_large="200 75, 400 0" data-lax-opacity="200 1,400 .95"
+            <article class="lax" data-lax-translate-y="200 0, 500 30" data-lax-opacity="200 1,900 1"
                 data-lax-anchor="self">
                 <div class="circle"><span>4</span></div>
-                <p>Il tuo racconto pubblicato sul
+                <p>Il tuo racconto verrà pubblicato sul
                     nostro sito.</p>
             </article>
 
@@ -292,11 +327,9 @@
             lax.setup(
             ) // init
 
-            lax.setup({
-                breakpoints: { small: 0, large: 992 }
-            })
-
-
+            //lax.setup({
+            //    breakpoints: { small: 0, large: 992 }
+            //})
 
             const updateLax = () => {
                 lax.update(window.scrollY)
