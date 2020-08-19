@@ -307,10 +307,10 @@ section.categorie {
 
 @media screen and (max-width: 400px){
     section.categorie {
-        padding-top: 20px;
+        padding-top: 25px;
     } 
     .carousel-container{
-        margin: 20px auto;
+        margin: 25px auto;
     }
 }
 
