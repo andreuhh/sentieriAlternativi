@@ -414,17 +414,12 @@ section.categorie {
     color: #fff;
     text-align: center;
     margin:0;
-}
-/*Categorie*/  
-
- 
-
-  
+} 
 /* Fine categorie */
 
 /*section articoli*/
 section.articles {
-    margin-top:  20px;
+    margin-top:  30px;
 }
 
 .card-container {
@@ -453,6 +448,10 @@ section.articles {
     padding-bottom: 10px;
     text-align: left;
     font-size: 2rem;
+}
+
+.card-title a{
+    color: var(--black-color);
 }
 
 .card-title p {
