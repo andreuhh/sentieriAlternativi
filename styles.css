@@ -347,11 +347,17 @@ section.categorie {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    border: 1px solid #aaa;
+    /*border: 1px solid #aaa;*/
+    border: 1px solid var(--primary-color);
+    background-color: var(--primary-color);
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     cursor: pointer;
+}
+
+i.material-icons{
+    color: #fff;
 }
 
 .nav-carousel .prev{
@@ -780,3 +786,4 @@ section.intestazione div {
     background-color: #7EA7F6;
     padding: 8px 12px;
 }
+
