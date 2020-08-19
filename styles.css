@@ -78,7 +78,7 @@ header{
     display: none;
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     width: 100%;
@@ -618,7 +618,7 @@ footer h4{
 /* articolo singolo */
 
 .articolo {
-    position: static;
+    position: relative;
     margin-bottom: 60px;
 }
 section.intestazione h2 {
@@ -632,6 +632,9 @@ section.intestazione div {
 }
 #articolo {
     margin: 0px 250px;
+}
+#articolo p {
+    line-height: 30px;
 }
 .categoria, .infos {
     margin-bottom: 80px;
@@ -648,4 +651,27 @@ section.intestazione div {
     color: var(--white-color);
     background-color: #7EA7F6;
     padding: 8px 12px;
+}
+@media screen and (max-width: 1200px){
+    #articolo {
+        margin: 0px 150px;
+    }
+}
+@media screen and (max-width: 850px){
+    #articolo {
+        margin: 0px 100px;
+    }
+}
+@media screen and (max-width: 650px){
+    #articolo {
+        margin: 0px 50px;
+    }
+    section.intestazione h2 {
+        font-size: 3.5rem;
+    }
+}
+@media screen and (max-width: 375px){
+    #articolo {
+        margin: 0px 30px;
+    }
 }
