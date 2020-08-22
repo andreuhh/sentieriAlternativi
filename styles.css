@@ -805,11 +805,11 @@ section.intestazione div {
 .categoria, .infos {
     margin-bottom: 80px;
 }
-.infos {
+#infos {
     display: flex;
     justify-content: space-between;
 }
-.infos div :nth-child(2) {
+#infos div :nth-child(2) {
     font-weight: bold;
     margin-top: 5px;
 }
@@ -840,6 +840,9 @@ section.intestazione div {
     #articolo {
         margin: 0px 80px;
     }
+    div.infos p {
+        font-size: 1.5rem;
+    }
 }
 @media screen and (max-width: 577px){
     #articolo {
@@ -858,6 +861,12 @@ section.intestazione div {
 }
 @media screen and (max-width: 393px){
     section.intestazione h2 {
-        font-size: 3rem;
+        font-size: 3.5rem;
+    }
+    div.infos p {
+        font-size: 1.3rem;
+    }
+    .categoria span {
+        font-size: 1.5rem;
     }
 }
