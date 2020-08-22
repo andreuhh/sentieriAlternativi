@@ -787,7 +787,7 @@ footer h4{
 /* articolo singolo */
 
 .articolo {
-    position: static;
+    position: relative;
     margin-bottom: 60px;
 }
 section.intestazione h2 {
@@ -818,4 +818,46 @@ section.intestazione div {
     background-color: #7EA7F6;
     padding: 8px 12px;
 }
-
+#articolo p {
+    line-height: 40px;
+}
+@media screen and (max-width: 1200px){
+    #articolo {
+        margin: 0px 200px;
+    }
+}
+@media screen and (max-width: 1050px){
+    #articolo {
+        margin: 0px 150px;
+    }
+}
+@media screen and (max-width: 850px){
+    #articolo {
+        margin: 0px 100px;
+    }
+}
+@media screen and (max-width: 617px){
+    #articolo {
+        margin: 0px 80px;
+    }
+}
+@media screen and (max-width: 577px){
+    #articolo {
+        margin: 0px 60px;
+    }
+}
+@media screen and (max-width: 537px){
+    section.intestazione h2 {
+        font-size: 4rem;
+    }
+}
+@media screen and (max-width: 479px){
+    #articolo {
+        margin: 0px 30px;
+    }
+}
+@media screen and (max-width: 393px){
+    section.intestazione h2 {
+        font-size: 3rem;
+    }
+}
