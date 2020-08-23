@@ -403,8 +403,12 @@ i.material-icons{
     align-items: center;
     font-size: 30px;
     background-size: cover ;
-    background-position: center;
-    
+    background-position: center;   
+}
+
+.card-carousel .img-carousel p{
+    color: #fff;
+    text-align: center;
 }
 
 .card-carousel .img-carousel.img-1 {
@@ -755,10 +759,8 @@ footer h4{
     font-size:25px;
 }
 
-.fab:hover{
-    
-    color: var(--primary-color);
-    
+.fab:hover{ 
+    color: var(--primary-color);    
 }
 
 @media screen and (max-width: 720px){
@@ -893,7 +895,7 @@ section.intestazione div {
         font-size: 1.4rem;
     }
     #articolo p {
-        line-height: 25px;
+        line-height: 20px;
     }
     .categoria, #infos, section.intestazione h2 {
         margin-bottom: 50px;
