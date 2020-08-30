@@ -293,6 +293,16 @@ section.project p {
     }
 }
 
+/* section la mappa */
+section#map{ 
+    margin-top:25px
+
+}
+section#map h3 {
+    padding: 20px 0;
+}
+/* fine section la mappa */
+
 /* section categorie*/
 section.categorie {
     padding-top: 30px;
