@@ -591,6 +591,11 @@ section.articles h3 {
     align-content: center;
     align-items: center;
 }
+
+.call-to-action {
+    text-decoration: none;
+}
+
 @media screen and (max-width: 768px){
     .call-to-action {
         margin-top: 40px;
