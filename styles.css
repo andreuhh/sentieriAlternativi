@@ -592,8 +592,9 @@ section.articles h3 {
     align-items: center;
 }
 
-.call-to-action {
+.call-to-action a {
     text-decoration: none;
+    color: #191919;
 }
 
 @media screen and (max-width: 768px){
