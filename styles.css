@@ -689,6 +689,11 @@ padding-bottom: 20px;
     margin-top: 40px;
     align-items: flex-start;
 }
+
+.step .step-container a{
+    color: #191919;
+}
+
 .step article{
     width: 25%;
     display: flex;
